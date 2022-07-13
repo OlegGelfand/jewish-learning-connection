@@ -98,6 +98,8 @@
     font-size: 20px;
     font-weight: 400;
     font-family: "Inter", sans-serif;
+    margin-top:10%;
+    margin-bottom:10%;
   }
   .link-to-site-button{
     text-decoration: none;
@@ -109,6 +111,7 @@
     text-align: center;
     width:100%;
     font-weight: 400;
+
     font-family: 'Inter', sans-serif;
     margin-bottom:5%;
     margin-top:2%
@@ -131,6 +134,9 @@
    color: white;
    text-decoration: none;
    align-self: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+
  }
   .speaker-links:hover {
   align-content: center;
@@ -145,6 +151,7 @@
 
   .title {
   padding-top:5%;
+    /*margin-top:5%;*/
   }
   .file-size {
   padding-bottom:5%;
@@ -153,33 +160,34 @@
    align-content: center;
     font-size: 18px;
     margin:0;
-    /*color:black;*/
+    font-family: 'Inter', sans-serif;
     padding-left:10%;
     line-height: 30px;
   }
-  .title, .chapter, .speaker, .upload-date, .file-size:hover {
+  .title:hover, .chapter:hover, .speaker:hover, .upload-date:hover, .file-size:hover {
     align-content: center;
     font-size: 18px;
     margin:0;
     padding-left:10%;
     line-height: 30px;
-    /*color:white;*/
+    color:white;
   }
 
   .individual-class-info {
     flex-direction: row;
     border-radius: 5%;
     background-color: white;
-    width:250px;
+    width:300px;
     height:80%;
     padding:5px 10px 5px 10px;
     box-shadow: 1px 5px 5px 5px gray;
   }
+
   .individual-class-info:hover {
     flex-direction: row;
     border-radius: 5%;
     background-color: #9A1E1E;
-    width:250px;
+    width:300px;
     padding:5px 10px 5px 10px;
     box-shadow: 1px 5px 5px 5px gray;
   }
